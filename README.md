@@ -1,16 +1,21 @@
 # Netflix Landing Page
 
 
-### Navigation Section
+### Header Section
+![image](https://github.com/saifulislam05/css-assign/assets/73392705/13dd32ce-754f-4162-a15c-3523e79f3fd7)
 
-The navigation section contains the logo and buttons for signing in and registering. The `display: flex;` property is used to align these elements horizontally. The logo image is resized using `width` and `height` properties. The buttons have a red background color, bold font, and rounded corners due to the use of `background`, `color`, and `border-radius` properties.
+The header section contains the logo and buttons for signing in and registering. The `display: flex;` property is used to align these elements horizontally. The logo image is resized using `width` and `height` properties. The buttons have a red background color, bold font, and rounded corners due to the use of `background`, `color`, and `border-radius` properties.
 
 ### Hero Section
+![image](https://github.com/saifulislam05/css-assign/assets/73392705/b09dbf8c-63eb-4667-9bb2-42817d5aa244)
 
 The hero section displays a heading and two paragraphs centered vertically and horizontally using `display: flex;`. The text is styled with various font sizes for emphasis. The background image is set using `background` property in the `body` element's CSS. The background has a slight transparency with `rgba()` to give a darker overlay effect.
 
 ## Explanation of Tags and Properties
+![image](https://github.com/saifulislam05/css-assign/assets/73392705/4e75bcb0-bf4f-4af1-b44f-96e76dec67ea)
 
+### `<link>` Tag
+The `<link>` Tag is use to connect external CSS file with HTML file using its attribute `href="style.css`.
 ### `<img>` Tag
 The `<img>` tag is used to display the Netflix logo. The `src` attribute points to the logo image's URL. This tag is used within the `#logo` div to showcase the logo.
 

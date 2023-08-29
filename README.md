@@ -7,7 +7,8 @@
 The header section contains the logo and buttons for signing in and registering. The `display: flex;` property is used to align these elements horizontally. The logo image is resized using `width` and `height` properties. The buttons have a red background color, bold font, and rounded corners due to the use of `background`, `color`, and `border-radius` properties.
 
 ### Hero Section
-![image](https://github.com/saifulislam05/css-assign/assets/73392705/b09dbf8c-63eb-4667-9bb2-42817d5aa244)
+![image](https://github.com/saifulislam05/css-assign/assets/73392705/9feda801-12e6-4e47-8e7d-c8e20f72d596)
+
 
 The hero section displays a heading and two paragraphs centered vertically and horizontally using `display: flex;`. The text is styled with various font sizes for emphasis. The background image is set using `background` property in the `body` element's CSS. The background has a slight transparency with `rgba()` to give a darker overlay effect.
 

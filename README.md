@@ -11,28 +11,71 @@ The header section contains the logo and buttons for signing in and registering.
 
 The hero section displays a heading and two paragraphs centered vertically and horizontally using `display: flex;`. The text is styled with various font sizes for emphasis. The background image is set using `background` property in the `body` element's CSS. The background has a slight transparency with `rgba()` to give a darker overlay effect.
 
-## Explanation of Tags and Properties
+## Explanation of some Tags and Properties
 ![image](https://github.com/saifulislam05/css-assign/assets/73392705/4e75bcb0-bf4f-4af1-b44f-96e76dec67ea)
 
 ### `<link>` Tag
 The `<link>` Tag is use to connect external CSS file with HTML file using its attribute `href="style.css`.
-### `<img>` Tag
-The `<img>` tag is used to display the Netflix logo. The `src` attribute points to the logo image's URL. This tag is used within the `#logo` div to showcase the logo.
 
-### `<button>` Tag
-The `<button>` tag is used for the "Sign In" and "Register" buttons. They have a red background color, white text color, bold font, and rounded corners. This is achieved through the `background`, `color`, `font-weight`, and `border-radius` properties.
+## Explanation of CSS Styles and properties
 
-### `background` Property
-The `background` property is applied to both the `body` and `#container` elements. It sets the background image of the page. In the `#container`, it adds a slight background overlay to improve readability of content.
+### Global Styles
+- `*`: Resets margin and padding for all elements to 0, ensuring consistent spacing.
 
-### `display: flex;` Property
-The `display: flex;` property is used in the `#nav` and `#hero` sections to create a flexible layout. It aligns elements horizontally (in the navigation) and both horizontally and vertically (in the hero section).
+### `body` Selector
+- `height: 100vh;`: Sets the body height to cover the full viewport.
+- `background`: Sets a background image for the body.
 
-### Font Styling
-Various text elements use different font sizes and weights to create visual hierarchy and emphasize important information. For example, the `<h1>` tag has a large font size to grab attention, while paragraphs have smaller sizes for better readability.
+### `#container` Selector
+- `height: inherit;`: Inherits height from the parent element `body`, covering the full viewport.
+- `background: rgba(0, 0, 0, 0.7);`: Adds a semi-transparent overlay to the container.
 
-### CSS Selectors
-Classes like `.btn`, IDs like `#nav`, and tag selectors like `h1` are used to target specific elements and apply styles. These selectors help organize and customize the appearance of different parts of the page.
+### Header Section (`#nav`, `#logo`, `#buttons`)
+- `#nav`:
+  - `width: 90%;`: Sets the navigation width to 90%.
+  - `margin: auto;`: Centers the navigation horizontally using auto margins.
+  - `display: flex;`: Uses flex layout for child elements.
+  - `padding: 20px 0;`: Adds 20px top and bottom padding.
 
-### `margin` and `padding` Properties
-The `margin` property is used to control the space outside elements, while the `padding` property is used to control the space inside elements. These properties are used throughout the CSS to create spacing between and within elements.
+- `#logo`:
+  - `width: 40%;`: Sets the logo container width.
+
+- `#logo img`:
+  - `width`: Sets the logo image width.
+  - `height`: Sets the logo image height.
+
+- `#buttons`:
+  - `width: 60%;`: Sets the buttons container width.
+  - `text-align: right;`: Aligns text to the right.
+  - `display: flex;`: Uses flex layout for child elements.
+  - `justify-content: end;`: Aligns content to the end (right).
+  - `align-items: center;`: Aligns items vertically to the center.
+
+- `.btn`:
+  - `background: red;`: Sets button background color.
+  - `padding: 8px 14px;`: Adds padding to buttons.
+  - `border: none;`: Removes button border.
+  - `color: white;`: Sets text color.
+  - `font-size: 15px;`: Sets font size.
+  - `border-radius: 5px;`: Rounds button corners.
+  - `font-weight: bold;`: Sets font weight.
+  - `margin-left: 10px;`: Adds left margin.
+
+### Hero Section (`#hero`, `h1`, `p`, `#p1`, `#p2`)
+- `#hero`:
+  - `display: flex;`: Uses flex layout.
+  - `flex-direction: column;`: Stacks items vertically.
+  - `justify-content: center;`: Centers content vertically.
+  - `align-items: center;`: Centers items horizontally.
+  - `color: white;`: Sets text color.
+  - `height: 80%;`: Sets section height.
+
+- `h1`:
+  - `font-size: 55px;`: Sets font size.
+
+- `p`:
+  - `margin: 13px;`: Adds margin.
+  - `font-weight: 400;`: Sets font weight.
+
+- `#p1` and `#p2`:
+  - `font-size`: Sets specific font sizes for paragraphs.
